@@ -1,182 +1,182 @@
-K2	���� 
-K3	��  ���� �߼�
-k4	��ѧ ʵս �ܽ�
-	��� 
+K2	基础 
+K3	快  节奏 逻辑
+k4	自学 实战 总结
+	大纲 
 ------------------------------------------------------	
-����ʽ�Ĵ����������
+集中式的代码管理工具
 svn
-	1.�ϲ�����
-	2.�汾���� ��ͻ
-	3.ɾ�� ��ʷ�汾ʹ��
-	4.�ύ�� ��ȷ����
-����
-	1���� https://tortoisesvn.net/
-	2.����
+	1.合并代码
+	2.版本覆盖 冲突
+	3.删除 历史版本使用
+	4.提交人 明确责任
+官网
+	1官网 https://tortoisesvn.net/
+	2.软件
 		TortoiseSVN
-		��װ
-	�����֤��װ�ɹ�����		
-	�ڵ�������ط�������Ҽ� TortoiseSVN	checkout
-ʹ��
-	1.���ش��룬�ύ�������� commit �ύ
-	2.�ӷ������Ѵ��������� ���� update
-	****ע�⣺ʹ��֮ǰ��һ��Ҫ��update,��commit
-	������ѿռ䡢�� sae 
-	΢��ע���  �ֻ���
+		安装
+	如何验证安装成功？？		
+	在电脑任意地方，鼠标右键 TortoiseSVN	checkout
+使用
+	1.本地代码，提交到服务器 commit 提交
+	2.从服务器把代码拉下来 下载 update
+	****注意：使用之前，一定要先update,再commit
+	申请免费空间、云 sae 
+	微博注册号  手机号
 	zns-!@#$
 	18730527600
-	���� 968145ww
-	�����û����� - ����̨ - ��sae - ������Ӧ��-��׼����-��������- SVN
-	-�����汾
-SVN�ֿ���Ϣ
-�ֿ��ַ	https://svn.sinacloud.com/ww2016
-�û���		1448297268@qq.com
-	�½��ļ��� - �Ҽ�checkout
-	ȱ�㣺
-		1.�����뿪���磬ֻ���ھ�������ʹ�á�
-		2.����ʽ�������ļ��������ʱ����� 22G
+	密码 968145ww
+	进入用户中心 - 控制台 - 云sae - 创建云应用-标准环境-创建环境- SVN
+	-创建版本
+SVN仓库信息
+仓库地址	https://svn.sinacloud.com/ww2016
+用户名		1448297268@qq.com
+	新建文件夹 - 右键checkout
+	缺点：
+		1.不能离开网络，只能在局域网内使用。
+		2.集中式管理，文件检出更新时间过长 22G
 -----------------------------------------------------------------------
-�ֲ�ʽ�����������
+分布式代码管理工具
 git
-	���� 	https://git-scm.com/
-	����
+	官网 	https://git-scm.com/
+	下载
 		windows
 		mac
 	
-	ʹ��git
-		1.ͼ�λ� ̫��
-		2.������
-	��װ ��һ��
-	�����֤��װ�ɹ����κ�λ���Ҽ� 
-	git GUI   ͼ�ι�������
-	gitBash  ������ linux 
-������linux���� 	û����ʾ ���ǳɹ�	
+	使用git
+		1.图形化 太土
+		2.命令行
+	安装 下一步
+	如何验证安装成功？任何位置右键 
+	git GUI   图形管理界面
+	gitBash  命令行 linux 
+常见的linux命令 	没有提示 就是成功	
 	gitBash here
-	cd  �����ļ��� 
-	cd ..������һ��
-	touch a.txt �����ļ�
-	mkdir ����Ŀ¼
-	rmdir ɾ��Ŀ¼
-	���� clear
-	�༭�ļ� 
-		1��vi  a.txt
-		2)���� i ->insert
-		3)����  esc
-		4)���� :wq �س�
-	�鿴�ļ� cat a.txt
-	��ݴ����ļ����������� 
-		echo ���� > �ļ���
-	ls	��ʾ�ļ�������ļ�
+	cd  进入文件夹 
+	cd ..返回上一层
+	touch a.txt 建立文件
+	mkdir 建立目录
+	rmdir 删除目录
+	清屏 clear
+	编辑文件 
+		1）vi  a.txt
+		2)按下 i ->insert
+		3)按下  esc
+		4)输入 :wq 回车
+	查看文件 cat a.txt
+	快捷创建文件并输入内容 
+		echo 内容 > 文件名
+	ls	显示文件夹里的文件
 ---------------------------------------------------
-git �ֿ� == Ŀ¼
-	��ô������ͨĿ¼ת��Ϊgit�ֿ�
+git 仓库 == 目录
+	怎么样把普通目录转化为git仓库
 	git init
 	git status
 
-	add  ->������    git add a.txt    git add .
-	commit �ֿ�
+	add  ->缓存区    git add a.txt    git add .
+	commit 仓库
 ---------------------------------------------------
-git	 github  û�а�ëǮ��ϵ
-svn 	������	
-�Ѳֿ�ŵ�github
-	1.����Ĵ���
-	2.���������˵Ĵ���	 jquery anuglar  nodejs
+git	 github  没有半毛钱关系
+svn 	新浪云	
+把仓库放到github
+	1.放你的代码
+	2.交流看别人的代码	 jquery anuglar  nodejs
 
 jiangxinglin
 624263212@qq.com
-���� jiangxinglin2016
-ע�᣺
-	�ؼ��㣡
-	settings -> email-> ���Ӷ�������
-�Ӻ�
+密码 jiangxinglin2016
+注册：
+	关键点！
+	settings -> email-> 添加额外邮箱
+加号
 	+	  
 -----------------------------------------------
-��ַ��www.github.com
-��������
-	������Կ  
-	�Ҽ�-gitBash
-	���룺ssh-keygen -t rsa -C  'xxx@qq.com' ������
-			id_rsa	˽Կ
-			id_rsa.pub  ��Կ ���±� 
+网址：www.github.com
+本机配置
+	生成秘钥  
+	右键-gitBash
+	输入：ssh-keygen -t rsa -C  'xxx@qq.com' 主邮箱
+			id_rsa	私钥
+			id_rsa.pub  公钥 记事本 
 			settings - >sshkey
-	���룺 git config �C-global   user.name 'jiangxinglin'	
-	���룺 git config --global  user.email '624263212@qq.com'
-	           ����git config -l
+	输入： git config –-global   user.name 'jiangxinglin'	
+	输入： git config --global  user.email '624263212@qq.com'
+	           看：git config -l
 git
-	1.�ѱ��ش��� �ӵ� �ֿ���
-		��һ��
+	1.把本地代码 扔到 仓库区
+		第一次
 		git remote add origin https://github.com/jiangxinglin/play.git
 		git push -u origin master	
-		�Ժ�
+		以后
 			git push
-	2.�Ѳֿ���� ��¡ ������
+	2.把仓库代码 克隆 拉下来
 		git clone https://github.com/leolau2012/html19.git	
 
-	3.������վ
-		����һ�������û�����ͬ�Ĳֿ�
-		�ֿ�����jiangxinglin.github.io
-		�ֿ���settings ->launch page 
-�ɹ� ��git
-	1. ���ؿ�  git init->git add . ->git commit -m 'xxxxx'
-	2.ע��      email 
+	3.个人网站
+		创建一个跟你用户名相同的仓库
+		仓库名：jiangxinglin.github.io
+		仓库下settings ->launch page 
+成功 用git
+	1. 本地库  git init->git add . ->git commit -m 'xxxxx'
+	2.注册      email 
 	3.SSH key username email 
 	3.new repository  
 		git remote add    xxxxxxx.git
 		git push -u
-		��һ��
-		�Ժ� git push
+		第一次
+		以后 git push
 	Everything up-to-date
 -----------------------------------------------------------------------------
-html5    +css3	������
-	����Ӧ��	
-	�ƶ���	
-		���� 	
-	ͼ��Ӧ��  ͼ�� canvas vml svg
-	��ϷӦ�� 	webworker  websocket  
+html5    +css3	服务器
+	基本应用	
+	移动端	
+		布局 	
+	图形应用  图表 canvas vml svg
+	游戏应用 	webworker  websocket  
 ---------------------------------------------------------------	
-����Ӧ��			
-û�ñ�ǩ
+基本应用			
+没用标签
 	header  footer  aside  article nav  menu address time mark section 
 	input 
 		text
 		number
 		email
 		tel
-		1.�ֻ� ������Ӧ�ļ���
-		2.��ӦУ��
-	1�����廯 �ɶ���
+		1.手机 弹出对应的键盘
+		2.对应校验
+	1）语义化 可读性
 	      article
 	      time  id = "time" > 12:23:33
-	2�� seo  ����  	
-����
-	video	��Ƶ
-	audio	����
-	canvas  ��ͼ
+	2） seo  国外  	
+有用
+	video	视频
+	audio	音乐
+	canvas  画图
 -------------------------------------------------------
-������
+兼容性
 	IE9+ 
 	chrome 
 	FF		
 	IE8
-		���Ž���  
-		������ǿ
+		优雅降级  
+		渐进增强
 <!--[if IE]>
-<script src=��http://html5shiv.googlecode.com/svn/trunk/html5.js��></script>
+<script src=”http://html5shiv.googlecode.com/svn/trunk/html5.js”></script>
 < ![endif]-->
 caniuse.com
 -------------------------------------------------------
 video - IE
-	�ƶ���
+	移动端
 	video -> img
 		ogg
-		mp4 ** ����  html5
+		mp4 ** 码率  html5
 -------------------------------------------------------		
 audio
-css3 ������ʽ
-js��������
+css3 常用样式
+js新增东西
 -------------------------------------------------------		
-1.�±�ǩ video	html5������ʲô���ܣ�
-2.��css��ʽ	css3�����Ķ���
-3.js������ʲô��
+1.新标签 video	html5新增了什么功能？
+2.新css样式	css3新增的东西
+3.js新增了什么？
 	
 		
 
@@ -203,6 +203,6 @@ SVN
 GIT
 HTML5
 
-
+这是一句测试的话
 
 	
